@@ -7,6 +7,14 @@ hack1=ass&hack2=ert&hack3=phpi&hack4=fo()
 
 
 hack1会和hack2拼接，hack3会和hack4拼接而形成assert(phpinfo())
+
+I have discovered a new writing method for PHP shell that can bypass most of the detection and can also bypass WAF using block transfer
+
+Send the following parameters using post
+
+hack1=ass&hack2=ert&hack3=phpi&hack4=fo（）
+
+Hack1 will be spliced with Hack2, and Hack3 will be spliced with Hack4 to form an assert (phpinfo())
 ![1](https://user-images.githubusercontent.com/90552883/229515220-742c99b2-a06f-4f30-99b9-c57b3a1c373a.PNG)
 ![2](https://user-images.githubusercontent.com/90552883/229515223-ce3efc9e-e456-4421-81c6-1036808c2bbf.PNG)
 ![3](https://user-images.githubusercontent.com/90552883/229515226-11aaa83e-9ab8-4b24-b30b-cd996e23df69.PNG)
@@ -17,3 +25,9 @@ hack1会和hack2拼接，hack3会和hack4拼接而形成assert(phpinfo())
 欢迎各位提供绕过思路
 
 请勿用于违法行为！！！！！！！！！！！！！！！
+
+I also wrote ms.php that can be bypassed through concatenated encoding (the bypass effect is worse than xz.php), and I can use its password just like php does in a sentence (hack1)
+
+Welcome to provide bypass ideas
+
+Please do not use it for illegal activities!!!!!!!!!!!!!!!
