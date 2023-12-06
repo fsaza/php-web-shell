@@ -55,7 +55,6 @@ class aa
     echo "sdasfsfaffawgsdfjpkdg";
     } 
   }
-  $rr=
   $mmmmmmm= 'X';
     if($mmmmmmm<0)
   {
